@@ -309,48 +309,148 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="KWzE2fS5OtmEKYbIP-kv" name="大交通数据架构设计">
+  <diagram id="KWzE2fS5OtmEKYbIP-kv" name="大交通逻辑">
     <mxGraphModel dx="794" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HHWiErZpBmMDPsOpe08r-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0A-z4DF41jy-nbUl4Zzp-1" target="0A-z4DF41jy-nbUl4Zzp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0A-z4DF41jy-nbUl4Zzp-1" target="0A-z4DF41jy-nbUl4Zzp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0A-z4DF41jy-nbUl4Zzp-1" target="0A-z4DF41jy-nbUl4Zzp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0A-z4DF41jy-nbUl4Zzp-1" value="确定场景" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="210" width="80" height="80" as="geometry" />
+          <mxGeometry x="38" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0A-z4DF41jy-nbUl4Zzp-4" target="0A-z4DF41jy-nbUl4Zzp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0A-z4DF41jy-nbUl4Zzp-4" target="0A-z4DF41jy-nbUl4Zzp-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0A-z4DF41jy-nbUl4Zzp-4" value="城市交通&lt;div&gt;（出发到达均为城市）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0A-z4DF41jy-nbUl4Zzp-5" value="poi交通（到达为poi/hotel）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="150" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0A-z4DF41jy-nbUl4Zzp-6" value="点对点交通（从任意点到任意点）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0A-z4DF41jy-nbUl4Zzp-7" target="0A-z4DF41jy-nbUl4Zzp-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0A-z4DF41jy-nbUl4Zzp-7" value="寻找可行的出发站点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0A-z4DF41jy-nbUl4Zzp-8" target="0A-z4DF41jy-nbUl4Zzp-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0A-z4DF41jy-nbUl4Zzp-8" value="寻找可行的到达站点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0A-z4DF41jy-nbUl4Zzp-9" value="确定候选交通方案" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="HHWiErZpBmMDPsOpe08r-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0A-z4DF41jy-nbUl4Zzp-9" target="HHWiErZpBmMDPsOpe08r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0A-z4DF41jy-nbUl4Zzp-9" value="确定候选交通方案（包括两点间可行的兜底方案）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0A-z4DF41jy-nbUl4Zzp-10" target="0A-z4DF41jy-nbUl4Zzp-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="50" />
+              <mxPoint x="300" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="0A-z4DF41jy-nbUl4Zzp-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="50" as="sourcePoint" />
+            <mxPoint x="310" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="50" />
+              <mxPoint x="300" y="260" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="0A-z4DF41jy-nbUl4Zzp-10" value="交通站点数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="414" y="10" width="60" height="80" as="geometry" />
+          <mxGeometry x="340" y="10" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0A-z4DF41jy-nbUl4Zzp-11" target="0A-z4DF41jy-nbUl4Zzp-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0A-z4DF41jy-nbUl4Zzp-11" value="交通站点最优方案数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="490" y="10" width="60" height="80" as="geometry" />
+          <mxGeometry x="430" y="20" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0A-z4DF41jy-nbUl4Zzp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0A-z4DF41jy-nbUl4Zzp-12" target="0A-z4DF41jy-nbUl4Zzp-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0A-z4DF41jy-nbUl4Zzp-12" value="请求" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="112.5" y="50" width="35" height="90" as="geometry" />
+          <mxGeometry x="60.5" y="50" width="35" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="0A-z4DF41jy-nbUl4Zzp-15" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="10" width="120" height="80" as="geometry" />
+        <mxCell id="HHWiErZpBmMDPsOpe08r-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0A-z4DF41jy-nbUl4Zzp-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="180" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="0A-z4DF41jy-nbUl4Zzp-16" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0A-z4DF41jy-nbUl4Zzp-15" value="图商接口" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0A-z4DF41jy-nbUl4Zzp-16" target="0A-z4DF41jy-nbUl4Zzp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0A-z4DF41jy-nbUl4Zzp-16" value="小交通接口" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="587" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HHWiErZpBmMDPsOpe08r-2" target="HHWiErZpBmMDPsOpe08r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-2" value="候选方案修正" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-3" value="（1.交通方式：是否能用驾车直达替代；2.交通总成本：考虑每段交通方式预留时间）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHWiErZpBmMDPsOpe08r-4" target="HHWiErZpBmMDPsOpe08r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-4" value="第一次过滤&lt;div&gt;(方案不可达，驾车时间过长）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHWiErZpBmMDPsOpe08r-5" target="HHWiErZpBmMDPsOpe08r-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-5" value="根据方案总时长，候选方案组内组外pk淘汰" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-6" value="直达方式为参考基准，组内组外设置阈值淘汰不合理线路" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHWiErZpBmMDPsOpe08r-7" target="HHWiErZpBmMDPsOpe08r-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-7" value="分组择优" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-8" value="排序输出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-28" value="三个场景核心逻辑一样，起点和终点有区别" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHWiErZpBmMDPsOpe08r-29" target="0A-z4DF41jy-nbUl4Zzp-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="746" y="140" />
+              <mxPoint x="570" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HHWiErZpBmMDPsOpe08r-29" value="机票查询" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="20" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
