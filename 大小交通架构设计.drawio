@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bjSPtr3s8qsgUsh3ZmXV-1" value="线路相关团队协作" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;dashed=1;" vertex="1" parent="1">
+        <mxCell id="bjSPtr3s8qsgUsh3ZmXV-1" value="线路相关内容协作" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="200" width="870" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="bjSPtr3s8qsgUsh3ZmXV-2" value="场景" style="swimlane;html=1;startSize=20;dashed=1;dashPattern=12 12;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-1">
@@ -56,7 +56,7 @@
             <mxPoint x="80" y="296" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bjSPtr3s8qsgUsh3ZmXV-57" value="PGC线路生产" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-23">
+        <mxCell id="bjSPtr3s8qsgUsh3ZmXV-57" value="PGC线路生产汇总" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-23">
           <mxGeometry x="20" y="196" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bjSPtr3s8qsgUsh3ZmXV-70" value="PGC线路列表中台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;dashPattern=12 12;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-23">
