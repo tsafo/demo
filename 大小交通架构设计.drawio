@@ -39,7 +39,7 @@
             <mxPoint x="340" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2zXfy9xad8W0CfJjgVPS-6" value="航班车次数据&lt;div&gt;（仅国内航班国内车次）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-21">
+        <mxCell id="2zXfy9xad8W0CfJjgVPS-6" value="站点间航班车次最优数据&lt;div&gt;（仅国内航班国内车次）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-21">
           <mxGeometry x="10" y="900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bjSPtr3s8qsgUsh3ZmXV-23" value="算法" style="swimlane;html=1;startSize=20;dashed=1;dashPattern=8 8;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-1">
@@ -425,7 +425,7 @@
         <mxCell id="HHWiErZpBmMDPsOpe08r-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0A-z4DF41jy-nbUl4Zzp-9" target="HHWiErZpBmMDPsOpe08r-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0A-z4DF41jy-nbUl4Zzp-9" value="确定候选交通方案（包括两点间可行的兜底方案）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0A-z4DF41jy-nbUl4Zzp-9" value="确定候选交通方案（包括两点间可行的兜底方案）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="510" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HHWiErZpBmMDPsOpe08r-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0A-z4DF41jy-nbUl4Zzp-10" target="0A-z4DF41jy-nbUl4Zzp-7">
@@ -481,7 +481,7 @@
         <mxCell id="HHWiErZpBmMDPsOpe08r-2" value="候选方案修正" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HHWiErZpBmMDPsOpe08r-3" value="（1.交通方式：是否能用驾车直达替代；2.交通总成本：考虑每段交通方式预留时间）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="HHWiErZpBmMDPsOpe08r-3" value="（1.交通方式：是否能用驾车直达替代；2.交通总成本：考虑每段交通方式预留时间）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="550" y="260" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HHWiErZpBmMDPsOpe08r-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHWiErZpBmMDPsOpe08r-4" target="HHWiErZpBmMDPsOpe08r-2">
@@ -496,7 +496,7 @@
         <mxCell id="HHWiErZpBmMDPsOpe08r-5" value="根据方案总时长，候选方案组内组外pk淘汰" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HHWiErZpBmMDPsOpe08r-6" value="直达方式为参考基准，组内组外设置阈值淘汰不合理线路" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="HHWiErZpBmMDPsOpe08r-6" value="直达方式为参考基准，组内组外设置阈值淘汰不合理线路" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="550" y="360" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HHWiErZpBmMDPsOpe08r-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHWiErZpBmMDPsOpe08r-7" target="HHWiErZpBmMDPsOpe08r-8">
@@ -508,7 +508,7 @@
         <mxCell id="HHWiErZpBmMDPsOpe08r-8" value="排序输出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="525" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HHWiErZpBmMDPsOpe08r-28" value="三个场景核心逻辑一样，起点和终点有区别" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="HHWiErZpBmMDPsOpe08r-28" value="三个场景核心逻辑一样，起点和终点有区别" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="300" y="350" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HHWiErZpBmMDPsOpe08r-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HHWiErZpBmMDPsOpe08r-29" target="0A-z4DF41jy-nbUl4Zzp-9">
@@ -522,7 +522,7 @@
         <mxCell id="HHWiErZpBmMDPsOpe08r-29" value="机票查询" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="20" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ItiAWB3pPyxHd26WHNj7-1" value="高峰qps到达24.6" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="ItiAWB3pPyxHd26WHNj7-1" value="高峰qps到达24.6" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="110" y="10" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
