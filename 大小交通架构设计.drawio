@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bjSPtr3s8qsgUsh3ZmXV-1" value="线路相关内容协作" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="200" width="870" height="1120" as="geometry" />
+          <mxGeometry x="50" y="170" width="870" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="bjSPtr3s8qsgUsh3ZmXV-2" value="场景" style="swimlane;html=1;startSize=20;dashed=1;dashPattern=12 12;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-1">
           <mxGeometry y="20" width="160" height="1100" as="geometry" />
@@ -56,8 +56,8 @@
             <mxPoint x="80" y="296" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bjSPtr3s8qsgUsh3ZmXV-57" value="PGC线路生产汇总" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-23">
-          <mxGeometry x="20" y="196" width="120" height="60" as="geometry" />
+        <mxCell id="bjSPtr3s8qsgUsh3ZmXV-57" value="PGC线路生产汇总" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-23">
+          <mxGeometry x="20" y="191" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bjSPtr3s8qsgUsh3ZmXV-70" value="PGC线路列表中台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;dashPattern=12 12;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-23">
           <mxGeometry x="20" y="500" width="120" height="60" as="geometry" />
@@ -88,17 +88,14 @@
             <mxRectangle x="480" y="20" width="40" height="1100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bjSPtr3s8qsgUsh3ZmXV-53" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" edge="1" parent="bjSPtr3s8qsgUsh3ZmXV-28" source="bjSPtr3s8qsgUsh3ZmXV-47" target="bjSPtr3s8qsgUsh3ZmXV-48">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="bjSPtr3s8qsgUsh3ZmXV-47" value="提供UGC线路生产工具及展示，并将数据存储至DB" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-28">
           <mxGeometry x="20" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bjSPtr3s8qsgUsh3ZmXV-48" value="其他展示入口：开放UGC数据给其他团队" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-28">
-          <mxGeometry x="20" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="bjSPtr3s8qsgUsh3ZmXV-48" value="开放UGC数据聚合api给其他团队" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-28">
+          <mxGeometry x="20" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bjSPtr3s8qsgUsh3ZmXV-24" value="PGC线路运营后台" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-28">
-          <mxGeometry x="20" y="196" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="191" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bjSPtr3s8qsgUsh3ZmXV-29" value="PGC线路列表页" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-28">
           <mxGeometry x="30" y="350" width="120" height="60" as="geometry" />
@@ -134,13 +131,13 @@
           <mxGeometry x="660" y="20" width="210" height="1100" as="geometry" />
         </mxCell>
         <mxCell id="bjSPtr3s8qsgUsh3ZmXV-49" value="展示UGC（行程、笔记）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-37">
-          <mxGeometry x="20" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bjSPtr3s8qsgUsh3ZmXV-4" value="运营生产线路" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-37">
-          <mxGeometry x="30" y="166" width="100" height="60" as="geometry" />
+          <mxGeometry x="18" y="161" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bjSPtr3s8qsgUsh3ZmXV-56" value="review线路" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-37">
-          <mxGeometry x="30" y="246" width="100" height="60" as="geometry" />
+          <mxGeometry x="18" y="241" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bjSPtr3s8qsgUsh3ZmXV-62" value="PGC线路流量入口" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="bjSPtr3s8qsgUsh3ZmXV-37">
           <mxGeometry x="20" y="350" width="120" height="60" as="geometry" />
@@ -235,6 +232,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Pg3yrHu62pDPr1q5K9Ol-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;curved=0;" edge="1" parent="bjSPtr3s8qsgUsh3ZmXV-1" source="bjSPtr3s8qsgUsh3ZmXV-125" target="bjSPtr3s8qsgUsh3ZmXV-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nkwuEXQssQ_uhWUSDn_K-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="bjSPtr3s8qsgUsh3ZmXV-1" source="bjSPtr3s8qsgUsh3ZmXV-49" target="bjSPtr3s8qsgUsh3ZmXV-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nkwuEXQssQ_uhWUSDn_K-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="bjSPtr3s8qsgUsh3ZmXV-1" source="bjSPtr3s8qsgUsh3ZmXV-56" target="bjSPtr3s8qsgUsh3ZmXV-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
