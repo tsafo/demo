@@ -298,10 +298,10 @@
           <mxGeometry x="546" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sn0s3KAXzCKQpu4OWGDI-7" value="列表页" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="112" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="159" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sn0s3KAXzCKQpu4OWGDI-8" value="详情页" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="258" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="305" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sn0s3KAXzCKQpu4OWGDI-9" value="爬虫" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="578" y="795" width="120" height="60" as="geometry" />
@@ -349,7 +349,7 @@
           <mxGeometry x="612" y="20" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x__0Z601p2cPh2DhG7w--4" value="我的列表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="406" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="453" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x__0Z601p2cPh2DhG7w--5" value="大交通" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="258" y="530" width="120" height="60" as="geometry" />
@@ -370,7 +370,7 @@
           <mxGeometry x="398" y="900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x__0Z601p2cPh2DhG7w--12" value="运营后台" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="550" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="597" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x__0Z601p2cPh2DhG7w--14" value="入口" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="-18" y="30" width="100" height="40" as="geometry" />
@@ -449,9 +449,6 @@
         </mxCell>
         <mxCell id="thvZYH9yFQUtrzAcgMmm-15" value="推荐住宿区" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="thvZYH9yFQUtrzAcgMmm-16" value="分享" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="682" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="thvZYH9yFQUtrzAcgMmm-17" value="分享" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="240" width="120" height="60" as="geometry" />
